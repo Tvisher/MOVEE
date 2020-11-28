@@ -1,5 +1,7 @@
 @charset "UTF-8";
+
 /*Обнуление*/
+
 * {
   padding: 0;
   margin: 0;
@@ -100,6 +102,7 @@ h6 {
 }
 
 /*Конец обнуления*/
+
 html {
   scroll-behavior: smooth;
 }
@@ -212,7 +215,8 @@ html {
   -o-transition: all 0.5s ease;
 }
 
-.menu__link:hover::before, .menu__link:hover::after {
+.menu__link:hover::before,
+.menu__link:hover::after {
   width: 110%;
 }
 
@@ -432,6 +436,7 @@ body.activate {
 }
 
 /* section happen*/
+
 .happen {
   padding: 95px 0px 0px 0px;
   text-align: center;
@@ -482,6 +487,7 @@ body.activate {
 }
 
 /*section price*/
+
 .price {
   padding: 59px 0px 0px 0px;
   text-align: center;
@@ -568,6 +574,7 @@ body.activate {
 }
 
 /* section autopark*/
+
 .autopark {
   padding: 102px 0px 0px 0px;
   text-align: center;
@@ -681,6 +688,7 @@ body.activate {
 }
 
 /*section reviews */
+
 .reviews {
   background: #fed100;
   padding: 100px 0;
@@ -759,6 +767,7 @@ body.activate {
 }
 
 /*contact-form section*/
+
 .contact-form {
   padding: 123px 0;
 }
@@ -803,6 +812,13 @@ body.activate {
 }
 
 .form__item::-webkit-input-placeholder {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.7);
+}
+
+.form__item::-moz-placeholder {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -854,6 +870,7 @@ input[type="checkbox"] {
 }
 
 /*section map*/
+
 .map__ober {
   position: relative;
 }
@@ -917,6 +934,7 @@ input[type="checkbox"] {
 }
 
 /*footer*/
+
 .footer {
   padding: 100px 0px 122px 0px;
   background: #fed100;
@@ -969,7 +987,6 @@ input[type="checkbox"] {
 
 .footer__social {
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
       align-self: center;
 }
 
@@ -1104,24 +1121,29 @@ input[type="checkbox"] {
   .slick-dots {
     margin: 10px 0 29px 0;
   }
+
   .autopark__slide {
     padding-bottom: 0;
   }
+
   .autopark__slider {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
+
   .autopark__slider {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
+
   .ober__img2 {
     display: none;
   }
+
   .navigation__menu {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 40%;
@@ -1133,15 +1155,18 @@ input[type="checkbox"] {
   .navigation__menu {
     display: none;
   }
+
   .burger__link {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
+
   .content__advantages {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+
   .box__item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1152,9 +1177,11 @@ input[type="checkbox"] {
             align-items: center;
     text-align: center;
   }
+
   .box__item .box__number {
     margin-right: 0;
   }
+
   .advantages__item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
@@ -1164,37 +1191,46 @@ input[type="checkbox"] {
         -ms-flex-align: center;
             align-items: center;
   }
+
   .advantages__item:last-child {
     margin-bottom: 0;
   }
+
   .ober__img {
     right: -165px;
   }
+
   .autopark__slide {
     padding: 47px 0px 60px 0px;
   }
+
   .price__cards {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+
   .cards__item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 47%;
             flex: 0 0 47%;
   }
+
   .cards__item:last-child {
     margin: 0 auto;
     margin-top: 30px;
   }
+
   .box__item {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
+
   .reviews__row {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+
   .reviews__item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1211,49 +1247,60 @@ input[type="checkbox"] {
         -ms-flex: 0 0 45%;
             flex: 0 0 45%;
   }
+
   .reviews__item:last-child {
     margin: 0 auto;
     margin-top: 30px;
   }
+
   .form {
     text-align: center;
   }
+
   .form__box {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+
   .form__action {
     margin: 0 auto;
     margin-top: 70px;
   }
+
   .footer__wrapper {
     position: relative;
   }
+
   .footer__social {
     position: absolute;
     right: 45px;
     top: 73px;
   }
+
   .footer__wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+
   .footer__wrapper .footer__menu {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
             order: -1;
   }
+
   .footer__wrapper .footer__social {
     position: initial;
     -webkit-box-ordinal-group: 6;
         -ms-flex-order: 5;
             order: 5;
   }
+
   .footer__wrapper .footer__social .sticker__social {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
+
   .footer__wrapper > div {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
@@ -1271,6 +1318,7 @@ input[type="checkbox"] {
     text-align: center;
     margin-bottom: 50px;
   }
+
   .footer {
     padding-bottom: 72px;
   }
@@ -1280,26 +1328,32 @@ input[type="checkbox"] {
   .navigation__menu {
     display: none;
   }
+
   .navigation__burger {
     width: 40%;
   }
+
   .navigation__tel {
     display: none;
   }
+
   .ober__img {
     right: -166px;
   }
+
   .happen__box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
+
   .box__item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
   }
+
   .price__cards {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1309,14 +1363,17 @@ input[type="checkbox"] {
         -ms-flex-align: center;
             align-items: center;
   }
+
   .cards__item {
     margin: 10px 0;
     width: 80%;
   }
+
   .cards__item:last-child {
     margin: 0;
     margin-top: 10px;
   }
+
   .reviews__row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1326,25 +1383,31 @@ input[type="checkbox"] {
         -ms-flex-align: center;
             align-items: center;
   }
+
   .reviews__item {
     width: 80%;
     margin-bottom: 40px;
   }
+
   .reviews__item:last-child {
     margin-top: 0;
   }
+
   .form__box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
+
   .form__item {
     margin-top: 0;
   }
+
   .form__item:first-child {
     margin-bottom: 40px;
   }
+
   .autopark__slide {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1354,6 +1417,7 @@ input[type="checkbox"] {
         -ms-flex-align: center;
             align-items: center;
   }
+
   .slide__content {
     margin-right: 0;
     -webkit-box-align: center;
@@ -1363,12 +1427,15 @@ input[type="checkbox"] {
         -ms-flex-order: 1;
             order: 1;
   }
+
   .map__sticker {
     position: initial;
   }
+
   .map__sticker .sticker__social {
     display: none;
   }
+
   .cards__btn:hover {
     background: #fed100;
     border: 2px solid #333;
@@ -1380,16 +1447,20 @@ input[type="checkbox"] {
     width: 410px;
     padding: 0 15px;
   }
+
   .navigation__burger {
     width: 50%;
   }
+
   .header__navigation a {
     font-size: 16px;
   }
+
   .header__navigation {
     margin-bottom: 15px;
     padding-top: 20px;
   }
+
   .header__content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1399,38 +1470,43 @@ input[type="checkbox"] {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+
   .content__ttile {
     font-size: 28px;
     text-align: center;
     margin-bottom: 5px;
     max-width: 200px;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
         align-self: center;
   }
+
   .content__text {
     font-size: 18px;
     text-align: center;
     margin-bottom: 5px;
   }
+
   .header__btn {
     width: 290px;
     margin-bottom: 20px;
   }
+
   .header__btn::after {
     display: none;
   }
+
   .btn__ober {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
         align-self: center;
   }
+
   .content__advantages {
     display: none;
   }
+
   .ober__img {
     position: initial;
     width: 100%;
@@ -1439,6 +1515,7 @@ input[type="checkbox"] {
     -o-object-fit: contain;
        object-fit: contain;
   }
+
   .box__item {
     margin-bottom: 20px;
     -webkit-box-orient: horizontal;
@@ -1446,6 +1523,7 @@ input[type="checkbox"] {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+
   .box__title {
     font-size: 16px;
     font-weight: normal;
@@ -1453,74 +1531,95 @@ input[type="checkbox"] {
     margin-left: 20px;
     margin-bottom: 0;
   }
+
   .happen__title {
     margin-bottom: 40px;
   }
+
   .happen {
     padding-top: 40px;
   }
+
   .box__par {
     display: none;
   }
+
   .price {
     padding-top: 40px;
     background: #f8fbff;
   }
+
   .price__subtitle {
     display: none;
   }
+
   .cards__item {
     width: 100%;
     border: none;
     padding-top: 0;
   }
+
   .cards__item:hover {
     border: none;
   }
+
   .autopark {
     padding-top: 20px;
   }
+
   .autopark__subtitle {
     display: none;
   }
+
   .autopark__menu a {
     border: none;
     font-size: 16px;
     font-weight: normal;
   }
+
   .autopark__menu a:hover {
     border: none;
   }
+
   .reviews {
     padding: 40px 0;
   }
+
   .reviews__title {
     margin-bottom: 40px;
   }
+
   .reviews__item {
     width: 100%;
   }
+
   #map {
     height: 400px;
     overflow: hidden;
   }
+
   .contact-form {
     padding: 40px 0;
   }
+
   .form__item {
     width: 100%;
   }
+
   .footer__wrapper > div {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
   }
+
   .footer__terms {
     max-width: 200px;
   }
+
   .footer {
     padding: 40px 0px 0px 0px;
   }
+
   .price__title {
     margin-bottom: 40px;
   }
@@ -1531,14 +1630,17 @@ input[type="checkbox"] {
     width: 100%;
     padding: 0 15px;
   }
+
   .navigation__burger {
     width: 70%;
     text-align: right;
     padding-right: 30px;
   }
+
   .navigation__burger .menu__item {
     margin-bottom: 40px;
   }
+
   .navigation__burger .menu__item .menu__link::after {
     right: 0;
     left: inherit;
